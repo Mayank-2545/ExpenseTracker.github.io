@@ -1,0 +1,40 @@
+body {
+   background-image: linear-gradient(to right, rgb(47, 130, 157), rgb(66, 245, 102));
+}
+.container {
+    margin: 20px auto;
+    width: 400px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#expenseList {
+    margin-top: 20px;
+}
+
+#expenses li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+#totalExpense {
+    font-weight: bold;
+}
